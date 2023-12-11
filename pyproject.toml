@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-python-8-19-rest-api-2"
+version = "0.1.0"
+description = ""
+authors = ["Aleksei Kostromin <kostrominpav@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.4.3"
+jsonschema = "^4.20.0"
+selene = "2.0.0rc4"
+allure-pytest = "^2.13.2"
+webdriver-manager  = "3.8.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
